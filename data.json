@@ -1,0 +1,75 @@
+{
+    "categories": [
+        {
+            "name": "Communication Consultants",
+            "employees": [
+                "Chrissy Bernard",
+                "Peter Cook",
+                "Richie Richards",
+                "Kathy Taylor",
+                "Stevie Nickx",
+                "Simon Fraizer",
+                "Timmy Mallet"
+            ]
+        },
+        {
+            "name": "Graphic Designers",
+            "employees": [
+                "Brandon Walsh",
+                "Bradshaw Shepard",
+                "Cuthburt Clements",
+                "Michael Jordon",
+                "Nancy Smith",
+                "Taylor Beech"
+            ]
+        },
+        {
+            "name": "Web Designers",
+            "employees": [
+                "Brandon Shaw",
+                "Michael Murphy",
+                "Newet Legg",
+                "Zack Zebra",
+                "Zanda Zeebee"
+            ]
+        },
+        {
+            "name": "Web Developers",
+            "employees": [
+                "Andrew Taylor",
+                "Duncan Dee",
+                "Grant Alan",
+                "Freddy Kru",
+                "Philip Windsor"
+            ]
+        },
+        {
+            "name": "Qualitiy Assessment",
+            "employees": [
+                "Henry Luccet",
+                "Heidi Hy",
+                "Janet Crossby",
+                "Lucy Lu"
+            ]
+        },
+        {
+            "name": "Quality Control",
+            "employees": [
+                "Kate Pear",
+                "Lemony Snicket",
+                "Qunicy qunice",
+                "Robyn Red"
+            ]
+        },
+        {
+            "name": "Project Managers",
+            "employees": [
+                "Susan Smith",
+                "Simon Jones",
+                "Tina Rich",
+                "Vanessa Groans",
+                "Paula Owl"
+            ]
+        }
+    ]
+}
