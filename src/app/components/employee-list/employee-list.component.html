@@ -1,0 +1,15 @@
+<div>
+    <h4 *ngIf="isActiveList">Active Employees - {{ getEmployeeCount() }}</h4>
+    <h4 *ngIf="!isActiveList">Inactive Employees - {{ getEmployeeCount() }}</h4>
+    <div class="form-group">
+        <input [(ngModel)]="textFilter" class="form-control w-100 rounded border" id="filter-employees" placeholder="Filter">
+    </div>
+    
+    <div class="form-group">
+        <select [(ngModel)]="selectedEmployees" multiple class="form-control">
+            <optgroup *ngFor="let category of categories" label="{{ category.name }}">
+                <option *ngFor="let employee of category.employees | employeeFilter:isActiveList:textFilter" [ngValue]="employee">{{ employee.name }}</option>
+            </optgroup>
+        </select>
+    </div>
+</div>

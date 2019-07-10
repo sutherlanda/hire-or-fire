@@ -1,0 +1,23 @@
+h4 {
+    color: #02075D;
+}
+
+select {
+    min-height: 300px;
+}
+
+optgroup {
+    font-weight: bold;
+    font-style: normal;
+}
+
+// Remove default padding on options
+option {
+    padding-left: 0em !important;
+    
+}
+
+// Last item in optgroup should have a bottom margin
+option:nth-last-child(1) {
+    margin-bottom: 0.5em;
+}
